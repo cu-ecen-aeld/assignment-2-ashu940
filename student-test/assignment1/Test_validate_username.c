@@ -21,5 +21,5 @@ void test_validate_my_username()
 
       const char* saved_name = my_username();
 
-      TEST_ASSERT_EQUAL_STRING_MESSAGE(malloc_username_from_conf_file(),saved_name,"username not equal");	
+      TEST_ASSERT_EQUAL_STRING_MESSAGE(malloc_username_from_conf_file(),saved_name,"username are not equal");	
 }
